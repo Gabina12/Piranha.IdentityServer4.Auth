@@ -8,7 +8,7 @@ namespace Piranha.IdentityServer4
         /// <summary>
         /// Gets the Author
         /// </summary>
-        public string Author => "Piranha";
+        public string Author => "Lasha Gabinashvili";
 
         /// <summary>
         /// Gets the Name
@@ -18,7 +18,7 @@ namespace Piranha.IdentityServer4
         /// <summary>
         /// Gets the Version
         /// </summary>
-        public string Version => Piranha.Utils.GetAssemblyVersion(GetType().Assembly);
+        public string Version => Utils.GetAssemblyVersion(GetType().Assembly);
 
         /// <summary>
         /// Gets the description

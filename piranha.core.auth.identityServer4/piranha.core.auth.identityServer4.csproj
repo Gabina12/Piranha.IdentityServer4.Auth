@@ -11,7 +11,8 @@
     <PackageIconUrl>https://identityserver.io/images/IDserver_logotransparent.png</PackageIconUrl>
     <Description>Piranha cms Identity server4 auth</Description>
     <PackOnBuild>true</PackOnBuild>
-    <PackageVersion>1.0.1</PackageVersion>
+    <PackageVersion>1.0.2</PackageVersion>
+    <PackageProjectUrl>https://github.com/Gabina12/Piranha.IdentityServer4.Auth.git</PackageProjectUrl>
   </PropertyGroup>
     
     <ItemGroup>
