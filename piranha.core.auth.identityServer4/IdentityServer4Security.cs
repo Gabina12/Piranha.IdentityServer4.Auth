@@ -1,11 +1,13 @@
 ﻿using System;
-using Piranha;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Http;
 
-namespace piranha.core.auth.identityServer4
+namespace Piranha.IdentityServer4
 {
-    public class SimpleSecurity : ISecurity
+    public class IdentityServer4Security : ISecurity
     {
-        public SimpleSecurity()
+        public IdentityServer4Security()
         {
         }
 
@@ -21,7 +23,7 @@ namespace piranha.core.auth.identityServer4
                 await ((HttpContext)context).SignOutAsync("Cookies");
                 await ((HttpContext)context).SignOutAsync("oidc");
             }
-            throw new ArgumentException("SimpleSecurity only works with a HttpContext");
+            throw new ArgumentException("IdentityServer4Security only works with a HttpContext");
         }
     }
 }

@@ -1,7 +1,24 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Copyright>Lasha Gabinashvili</Copyright>
+    <Owners>Lasha Gabinashvili</Owners>
+    <PackageTags>piranha.cms, piranha.auth.identity,piranha.identityserver4</PackageTags>
+    <Title>Bondx.Piranha.IdentityServer4.Auth</Title>
+    <PackageId>Bondx.Piranha.IdentityServer4.Auth</PackageId>
+    <Authors>Lasha Gabinashvili</Authors>
+    <PackageIconUrl>https://identityserver.io/images/IDserver_logotransparent.png</PackageIconUrl>
+    <Description>Piranha cms Identity server4 auth</Description>
+    <PackOnBuild>true</PackOnBuild>
+    <PackageVersion>1.0.1</PackageVersion>
   </PropertyGroup>
+    
+    <ItemGroup>
+        <PackageReference Include="Piranha" Version="8.4.2" />
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="3.1.0" />
+        <PackageReference Include="IdentityModel" Version="3.1.0" />
+    </ItemGroup>
+    
 
 </Project>
