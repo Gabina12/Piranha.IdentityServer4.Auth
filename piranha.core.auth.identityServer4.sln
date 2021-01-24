@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.808.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "piranha.core.auth.identityServer4", "piranha.core.auth.identityServer4\piranha.core.auth.identityServer4.csproj", "{54CEBD08-F47B-48BE-BA0A-5E90DB55984A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54CEBD08-F47B-48BE-BA0A-5E90DB55984A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54CEBD08-F47B-48BE-BA0A-5E90DB55984A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54CEBD08-F47B-48BE-BA0A-5E90DB55984A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54CEBD08-F47B-48BE-BA0A-5E90DB55984A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6206204D-35F4-4559-8569-D4F90E0F8541}
+	EndGlobalSection
+EndGlobal
